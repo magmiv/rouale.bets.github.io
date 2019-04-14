@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+  font-family: bold;
+  src: url(/fonts/bold.otf); }
+@font-face {
+  font-family: dinpro-bold;
+  src: url(/fonts/dinpro-bold_1.otf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%; }
+
+body {
+  background-image: url(/imgs/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+          background-size: cover;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px
+  }
+
+.wrapper-of-register {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.wrapper-of-forms {
+  min-height: 270px;
+  display: flex;
+   -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+}
+.input-in-register {
+  height: 39px;
+  width: 185px;
+  background-color: #ffffff;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  padding-left: 50px;
+  margin: 8px 0;
+  color: #828282;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: bold;
+  background-repeat: no-repeat;
+  background-position: 17px center; 
+  padding-right: 15px;
+}
+
+.login {
+  background-image: url(../../imgs/password.png);
+  -webkit-background-size: 9% 9%;
+          background-size: 9%; }
+.email {
+  background-image: url(../../imgs/password.png);
+  -webkit-background-size: 9% 9%;
+          background-size: 9%; }
+.password {
+  background-image: url(../../imgs/login.png);
+  background-position: 19px center;
+  -webkit-background-size: 6.7% 6.7%;
+          background-size: 6.7%; }
+.error {
+  border: 2px solid red;
+  box-shadow: 0 0 10px rgba(255,0,0, 0.3)
+}
+.error-text {
+  display: none;
+}
+.error-text-active {
+  display: block !important;
+  font-size: 17px;
+  color: red;
+  text-transform: uppercase;
+  font-family: dinpro-bold;
+  margin: -1px;
+}
+.button-in-register {
+  margin: 13px 0;
+  height: 35px;
+  width: 180px;
+  background-color: #5180BB;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  /* Параметры тени */ }
+
+.button-in-register > p {
+  margin-top: -2px; }

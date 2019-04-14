@@ -1,0 +1,64 @@
+* 
+  margin: 0;
+  padding: 0;
+
+body, html 
+  height: 100%; 
+
+.wrapper-of-preloader 
+  width: 100%;
+  height: 100%;
+  background-image: url(../imgs/bg-preloader.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #15161B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 80;
+ 
+.done 
+  opacity: 0;
+  transition: 0.5s linear;
+  z-index: -100;
+
+.loading 
+  margin-top: -35px;
+
+
+.line 
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 1px; 
+
+@keyframes loadingC 
+  0 
+    transform: translate(0, 0); 
+  50% 
+    transform: translate(0, 15px); 
+  100% 
+   transform: translate(0, 0); 
+
+
+.load-3 .line
+  &:nth-last-child(1)
+    -webkit-animation: loadingC .6s .1s linear infinite
+    animation: loadingC .6s .1s linear infinite
+  &:nth-last-child(2)
+    -webkit-animation: loadingC .6s .2s linear infinite
+    animation: loadingC .6s .2s linear infinite
+  &:nth-last-child(3)
+    -webkit-animation: loadingC .6s .3s linear infinite
+    animation: loadingC .6s .3s linear infinite
+
+.cbalink
+  display: none

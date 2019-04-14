@@ -1,0 +1,221 @@
+@charset "UTF-8"
+
+@font-face
+  font-family: supercell
+  src: url(../fonts/dinpro-bold_1.otf)
+
+
+@font-face
+  font-family: supercell-magic
+  src: url(../fonts/Supercell-Magic.ttf)
+
+
+@font-face
+  font-family: bold
+  src: url(../fonts/bold.otf)
+
+
+*
+  padding: 0
+  margin: 0
+  border: none
+
+.wrapper
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  width: 100%
+
+/* Начало контента */
+
+.wrapper-of-content
+  width: 88%
+  max-width: 1300px
+  margin-top: 120px
+  border: 3px solid #7C7B7C
+  -webkit-border-radius: 3px
+  border-radius: 3px
+  position: absolute
+  background-color: #A8A8A8
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6)
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6)
+  max-height: 450px
+  height: auto
+  &:before
+    content: ' '
+    width: 100%
+    height: 100%
+    position: absolute
+    background-image: url(../imgs/bg-in-content.jpg)
+    -webkit-background-size: 100% 100%
+    background-size: 100%
+    opacity: 0.2
+    z-index: 1
+
+.wrapper-of-line-in-content
+  height: 55px
+  border-bottom: 2px solid #8B8A8B
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  position: relative
+  z-index: 2
+
+.wrapper-of-center-in-line-in-content
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+
+.decor-line
+  height: 50px
+
+.wrapper-of-block-in-content
+  width: 300px
+  height: 55px
+  background-color: #4B4B4B
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -ms-flex-pack: justify
+  justify-content: space-between
+
+.wrapper-of-text-in-block
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  color: #fff
+  font-family: bold
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  font-size: 19px
+
+.wrapper-of-left-block
+  width: 117px
+  position: relative
+  background-image: url(../imgs/left-block.png)
+  height: 55px
+  -webkit-background-size: 100% 100%
+  background-size: 100%
+  margin-left: -77px
+  background-repeat: no-repeat
+
+.wrapper-of-right-block
+  width: 117px
+  position: relative
+  background-image: url(../imgs/right-block.png)
+  height: 55px
+  -webkit-background-size: 100% 100%
+  background-size: 100%
+  background-repeat: no-repeat
+  margin-right: -77px
+
+.end-of-wars
+  width: 100%
+  height: 40px
+  background-color: #898989
+
+.wrapper-of-player
+  height: 100%
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  position: relative
+
+.wrapper-of-right-player
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: reverse
+  -webkit-flex-direction: row-reverse
+  -ms-flex-direction: row-reverse
+  flex-direction: row-reverse
+  margin-left: 87px
+
+.wrapper-of-left-player
+  margin-right: 87px
+
+.logo-of-clan
+  height: 49px
+  -webkit-background-size: 100% 100%
+  background-size: 100%
+  z-index: 10
+
+.logo-of-right-player
+  margin-right: 15px
+
+.logo-of-left-player
+  margin-left: 15px
+
+.name-of-player
+  font-family: supercell
+  font-size: 20px
+  color: #272727
+
+.name-of-left-player
+  text-align: right
+
+.vs, .clan-of-player
+  display: none
+
+.sponsor
+  max-height: 45px
+  position: absolute
+  left: 10px
+  z-index: 1
+  margin-top: 5px
+
+.tv-royale
+  position: absolute
+  right: 20px
+  top: 7px
+  height: 40px

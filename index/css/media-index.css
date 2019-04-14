@@ -1,0 +1,420 @@
+@charset "UTF-8";
+/* Медиа запросы с телефонов */
+@media screen and (max-width: 1220px) {
+  .sponsor {
+    display: none; } }
+
+@media screen and (max-width: 1220px) and (min-width: 1026px) {
+  .wrapper-of-left-player {
+    margin-right: 95px; }
+  .wrapper-of-right-player {
+    margin-left: 95px; } }
+
+@media screen and (max-width: 1026px) and (min-width: 908px) {
+  .tv-royale {
+    display: none; } }
+
+@media screen and (max-width: 908px) and (min-width: 800px) {
+  .wrapper-of-block-in-content {
+    height: 50px;
+    width: 250px; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 107px; }
+  .wrapper-of-line-in-content, .decor-line {
+    height: 50px; }
+  .tv-royale {
+    display: none; }
+  .logo-of-clan {
+    height: 40px; }
+  .name-of-player, .wrapper-of-text-in-block {
+    font-size: 18px; } }
+
+@media screen and (max-width: 800px) and (min-width: 750px) {
+  .wrapper-of-block-in-content {
+    height: 45px;
+    width: 240px; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 96px; }
+  .wrapper-of-line-in-content, .decor-line {
+    height: 45px; }
+  .tv-royale {
+    display: none; }
+  .logo-of-clan {
+    height: 35px; }
+  .name-of-player, .wrapper-of-text-in-block {
+    font-size: 18px; }
+  .logo-of-right-player {
+    margin-right: 10px; }
+  .logo-of-left-player {
+    margin-left: 10px; } }
+
+@media screen and (max-width: 750px) and (min-width: 720px) {
+  .wrapper-of-block-in-content {
+    height: 45px;
+    width: 220px; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 96px; }
+  .wrapper-of-line-in-content, .decor-line {
+    height: 45px; }
+  .tv-royale {
+    display: none; }
+  .logo-of-clan {
+    height: 35px; }
+  .name-of-player, .wrapper-of-text-in-block {
+    font-size: 18px; }
+  .logo-of-right-player {
+    margin-right: 10px; }
+  .logo-of-left-player {
+    margin-left: 10px; } }
+
+@media screen and (max-width: 720px) and (min-width: 665px) {
+  .wrapper-of-block-in-content {
+    height: 40px;
+    width: 220px; }
+  .wrapper-of-left-block {
+    width: 85px;
+    margin-left: -70px; }
+  .wrapper-of-right-block {
+    width: 85px;
+    margin-right: -70px; }
+  .wrapper-of-line-in-content {
+    height: 40px; }
+  .decor-line {
+    height: 45px; }
+  .tv-royale {
+    display: none; }
+  .logo-of-clan {
+    height: 30px; }
+  .name-of-player {
+    font-size: 17px;
+    margin-top: -1px; }
+  .wrapper-of-text-in-block {
+    font-size: 17px; }
+  .logo-of-right-player {
+    margin-right: 8px; }
+  .logo-of-left-player {
+    margin-left: 8px; }
+  .wrapper-of-right-player {
+    margin-left: 79px; }
+  .wrapper-of-left-player {
+    margin-right: 79px; } }
+
+@media screen and (max-width: 665px) and (min-width: 400px) {
+  .wrapper-of-line-in-content {
+    width: 84% !important; } }
+
+@media screen and (max-width: 350px) and (min-width: 320px) {
+  .wrapper-of-content {
+    margin-top: 82px !important; } }
+
+@media screen and (max-width: 380px) and (min-width: 350px) {
+  .wrapper-of-content {
+    margin-top: 90px !important; } }
+
+@media screen and (max-width: 410px) and (min-width: 380px) {
+  .wrapper-of-content {
+    margin-top: 99px !important; } }
+
+@media screen and (max-width: 440px) and (min-width: 410px) {
+  .wrapper-of-content {
+    margin-top: 107px !important; } }
+
+@media screen and (max-width: 470px) and (min-width: 440px) {
+  .wrapper-of-content {
+    margin-top: 114px !important; } }
+
+@media screen and (min-width: 470px) {
+  .wrapper-of-content {
+    margin-top: 120px !important; } }
+
+@media screen and (max-width: 427px) and (min-width: 350px) {
+  .wrapper-of-line-in-content {
+    min-height: 78px !important; }
+  .wrapper-of-block-in-content {
+    height: 30px !important;
+    top: 43px !important; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 64px !important; }
+  .wrapper-of-player {
+    margin-top: 6px !important; }
+  .wrapper-of-left-player {
+    left: 7px !important; }
+  .wrapper-of-right-player {
+    right: 7px !important; }
+  .name-of-player {
+    font-size: 9px !important; }
+  .clan-of-player {
+    font-size: 8px !important; }
+  .vs {
+    font-size: 12px !important; }
+  .logo-of-clan {
+    height: 25px !important; } }
+
+@media screen and (max-width: 455px) and (min-width: 427px) {
+  .wrapper-of-line-in-content {
+    min-height: 80px !important; }
+  .wrapper-of-block-in-content {
+    height: 30px !important;
+    top: 45px !important; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 64px !important; }
+  .wrapper-of-player {
+    margin-top: 7px !important; }
+  .wrapper-of-left-player {
+    left: 11px !important; }
+  .wrapper-of-right-player {
+    right: 11px !important; }
+  .name-of-player {
+    font-size: 9px !important; }
+  .clan-of-player {
+    font-size: 8px !important; }
+  .vs {
+    font-size: 12px !important; }
+  .logo-of-clan {
+    height: 25px !important; } }
+
+@media screen and (max-width: 480px) and (min-width: 455px) {
+  .wrapper-of-line-in-content {
+    min-height: 88px !important;
+    width: 82% !important; }
+  .wrapper-of-block-in-content {
+    height: 35px !important;
+    top: 49px !important; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 75px !important; }
+  .wrapper-of-player {
+    margin-top: 8px !important; }
+  .wrapper-of-left-player {
+    left: 3px !important; }
+  .wrapper-of-right-player {
+    right: 3px !important; }
+  .wrapper-of-profile {
+    margin-top: 2px !important; }
+  .name-of-player {
+    font-size: 10px !important; }
+  .clan-of-player {
+    font-size: 9px !important; }
+  .vs {
+    font-size: 14px !important;
+    margin-top: 17px !important; }
+  .logo-of-clan {
+    height: 30px !important;
+    margin: 0 7px !important; }
+  .wrapper-of-text-in-block {
+    font-size: 13px !important; } }
+
+@media screen and (max-width: 570px) and (min-width: 480px) {
+  .wrapper-of-line-in-content {
+    min-height: 90px !important;
+    width: 83% !important; }
+  .wrapper-of-block-in-content {
+    height: 36px !important;
+    top: 49px !important; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 76px !important; }
+  .wrapper-of-player {
+    margin-top: 8px !important; }
+  .wrapper-of-left-player {
+    left: 3% !important; }
+  .wrapper-of-right-player {
+    right: 3% !important; }
+  .wrapper-of-profile {
+    margin-top: 2px !important; }
+  .name-of-player {
+    font-size: 11px !important; }
+  .clan-of-player {
+    font-size: 10px !important; }
+  .vs {
+    font-size: 14px !important;
+    margin-top: 17px !important; }
+  .logo-of-clan {
+    height: 32px !important;
+    margin: 0 7px !important; }
+  .wrapper-of-text-in-block {
+    font-size: 15px !important; } }
+
+@media screen and (max-width: 670px) and (min-width: 570px) {
+  .wrapper-of-line-in-content {
+    min-height: 94px !important;
+    width: 85% !important; }
+  .wrapper-of-block-in-content {
+    height: 37px !important;
+    top: 52px !important; }
+  .wrapper-of-left-block, .wrapper-of-right-block {
+    width: 78px !important; }
+  .wrapper-of-player {
+    margin-top: 8px !important; }
+  .wrapper-of-left-player {
+    left: 4% !important; }
+  .wrapper-of-right-player {
+    right: 4% !important; }
+  .wrapper-of-profile {
+    margin-top: 2px !important; }
+  .name-of-player {
+    font-size: 12px !important; }
+  .clan-of-player {
+    font-size: 11px !important; }
+  .vs {
+    font-size: 15px !important;
+    margin-top: 17px !important; }
+  .logo-of-clan {
+    height: 34px !important;
+    margin: 0 7px !important; }
+  .wrapper-of-text-in-block {
+    font-size: 15px !important; } }
+
+@media screen and (max-width: 670px) {
+  .wrapper-of-content {
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 75px; }
+    .wrapper-of-content:before {
+      display: none; }
+  .wrapper-of-line-in-content {
+    min-height: 72px;
+    width: 90%;
+    border: 2px solid #8B8A8B;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin: 5px 0;
+    background-color: #cbcbcb;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
+  .end-of-wars, .decor-line {
+    display: none; }
+  .wrapper-of-block-in-content {
+    width: 74%;
+    position: absolute;
+    top: 40px;
+    height: 28px;
+    background-color: #4B4B4B;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .wrapper-of-left-block {
+    width: 60px;
+    position: relative;
+    -webkit-background-size: 100% 100%;
+    background-size: 100%;
+    margin-left: -15px;
+    background-repeat: no-repeat; }
+  .wrapper-of-right-block {
+    width: 60px;
+    position: relative;
+    -webkit-background-size: 100% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: -15px; }
+  .tv-royale {
+    display: none; }
+  .wrapper-of-player {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 5px; }
+  .wrapper-of-left-player {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    left: 3px; }
+  .wrapper-of-right-player {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    right: 3px; }
+  .wrapper-of-profile {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .wrapper-of-left-profile {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .wrapper-of-right-profile {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .name-of-player {
+    font-size: 8px;
+    color: #1C69E3;
+    margin-top: 2px;
+    font-family: supercell-magic; }
+  .name-of-right-player {
+    color: #ED0000; }
+  .clan-of-player {
+    display: block;
+    font-size: 7px;
+    font-family: supercell-magic;
+    color: #4B4B4B;
+    margin-top: 2px; }
+  .vs {
+    display: block;
+    color: #fff;
+    font-family: bold;
+    font-size: 11px;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+    margin-top: 16px; }
+  .logo-of-clan {
+    height: 22px;
+    margin: 0 5px; }
+  .wrapper-of-text-in-block {
+    font-size: 12px;
+    font-weight: 100; } }
