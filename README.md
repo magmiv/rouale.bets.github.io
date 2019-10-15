@@ -1,1 +1,1 @@
-# rouale.bets.github.io
+# royale.bets.github.io
